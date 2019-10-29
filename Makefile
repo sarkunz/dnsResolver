@@ -3,7 +3,7 @@
 # Note: requires a 64-bit x86-64 system 
 #
 CC = gcc
-CFLAGS = -g
+CFLAGS = -g -std=c11
 
 all: resolver
 
